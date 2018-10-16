@@ -81,7 +81,7 @@ function startTranscode(data) {
     new ffmpeg({source: `${data.videoPath}`})
         .format('webm')
         .videoCodec('libvpx-vp9')
-        .inputOption('-threads 8')
+        .inputOption('-threads 0')
         .outputOption(
             qualityControl
         )
