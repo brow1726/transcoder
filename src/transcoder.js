@@ -53,9 +53,7 @@ function getVideoInfo(videoPath) {
   console.log("get video info");
   console.log('************************************************');
   return new Promise((res, rej) => {
-    ffprobe(`${videoPath}`, (err, data) => {
-      res({data: data, videoPath: videoPath});
-    })
+    res({videoPath: videoPath});
   })
 }
 
