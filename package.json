@@ -1,0 +1,13 @@
+{
+  "name": "transcoder",
+  "version": "1.0.0",
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "0.0.1-security",
+    "node-ffprobe": "^1.2.2",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "request-promise": "^4.2.2"
+  }
+}
